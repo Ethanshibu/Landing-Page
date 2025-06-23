@@ -1,1 +1,1 @@
-(works)[https://ethanshibu.github.io/Landing-Page/]
+[works](https://ethanshibu.github.io/Landing-Page/)
