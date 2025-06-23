@@ -1,0 +1,33 @@
+*{
+    border: 1px solid red;
+    font-family: "Roboto";
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.hero .main {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
