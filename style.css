@@ -47,3 +47,11 @@ ul {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+
+.randwboxes .imboxes {
+    display:flex;
+    justify-content: space-between
+
+
+}
