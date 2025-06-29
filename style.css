@@ -1,5 +1,7 @@
 
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 .header,
 .hero,
@@ -7,6 +9,12 @@
     background-color: #1f2937;
 }
 
+.head {
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .header {
     display: flex;
@@ -14,20 +22,71 @@
     font-size: 24px;
     color: #f9faf8;
 }
+.linklist {
+    margin-right: 25%;
+}
 
 ul {
     list-style: none;
     display: flex;
 }
 
+li {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.center {
+    display:flex;
+    width: 50%;
+    height: 250px;
+}
+
+.hero .center {
+    display: flex;
+}
+
+.hero .image {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.herobutton {
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+
+.herobutton button{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.hero {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
 .hero .main {
     font-size: 48px;
     color: #f9faf8;
+    width: 75%;
+    font-weight: 900;
+    flex-grow: auto;
 }
 
 .hero .subtext {
     font-size: 18px;
     color: #e5e7eb;
+    text-wrap: wrap;
 }
 
 
@@ -134,16 +193,32 @@ ul {
 
 button {
     color: white;
-    border-width: 2px;
     background-color: #3882f6;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 7px;
-
+    font-weight: 900;
 }
+
+.signup button {
+    border: 2px solid white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 
 .callcard .setup {
     display: flex;
     justify-content: space-between;
     gap: 40px;
 
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
 }
