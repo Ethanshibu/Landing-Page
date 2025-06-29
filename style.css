@@ -1,7 +1,5 @@
-*{
-    border: 1px solid red;
-    font-family: "Roboto";
-}
+
+
 
 .header,
 .hero,
@@ -50,13 +48,15 @@ ul {
     display: flex;
     justify-content: center;
     gap: 80px;
+    padding-bottom: 100px;
 }
-.image {
+
+.imboxes .image {
+    border: 3px solid #3882f6;
     border-radius: 20px;
-    border-color: blue;
-    border-width: 3px;
     overflow: hidden;
 }
+
 .textwb {
     width: 200px;
     text-align: center;
@@ -89,4 +89,61 @@ ul {
     text-align: right;
     font-weight: 800;
     font-size: 20px;
+}
+
+
+.callcard-bg {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.callcard {
+    height: 200px;
+    display: flex;
+    width: 75%;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.call .calltext {
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+}
+
+.call .subtext {
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+}
+
+.signup {
+    display: flex;
+    border: white;
+    justify-content: right;
+    align-items: center;    
+    padding-left: 10px;
+    padding-right: 1px;
+    padding: 5px;
+}
+
+button {
+    color: white;
+    border-width: 2px;
+    background-color: #3882f6;
+    font-size: 25px;
+    border-radius: 7px;
+
+}
+
+.callcard .setup {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
 }
