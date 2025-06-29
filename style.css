@@ -34,9 +34,6 @@ ul {
 
 
 
-
-
-
 .randwboxes .main {
     display: flex;
     font-size: 36px;
@@ -49,9 +46,47 @@ ul {
 }
 
 
-.randwboxes .imboxes {
-    display:flex;
-    justify-content: space-between
+.imboxes {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.image {
+    border-radius: 20px;
+    border-color: blue;
+    border-width: 3px;
+    overflow: hidden;
+}
+.textwb {
+    width: 200px;
+    text-align: center;
+}
+
+.imboxes .text {
+    text-wrap: wrap;
+}
 
 
+.quotebox {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    width: 50%;
+}
+
+.author {
+    width: 50%;
+    text-align: right;
+    font-weight: 800;
+    font-size: 20px;
 }
